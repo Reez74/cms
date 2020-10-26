@@ -114,7 +114,7 @@ export class EditPage extends React.Component{
                 <div className="tab-pane fade" id="nav-extraHTML" role="tabpanel" aria-labelledby="nav-extraHTML-tab">
                     <div className="col-10 mx-auto my-3">
                         <div className="mb-3">
-                            <input value={this.state.name} name="name" onChange={this.handleInputChange} type="text" className="form-control" placeholder="URI страницы"/>
+                            <input  name="name" value={this.state.name} onChange={this.handleInputChange} type="text" className="form-control" placeholder="URI страницы"/>
                         </div>
                         <div className="mb-3">
                             <input name="title" value={this.state.title} onChange={this.handleInputChange} type="text" className="form-control" placeholder="Заголовок страницы"/>
@@ -122,9 +122,6 @@ export class EditPage extends React.Component{
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     }
 }
